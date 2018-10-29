@@ -1,4 +1,4 @@
-package com.minarchenko.taxiService.taxi.entity;
+package com.minarchenko.taxiService.entity;
 
 public class Car extends TaxiEntity{
 
@@ -14,9 +14,8 @@ public class Car extends TaxiEntity{
 
     @Override
     public String toString() {
-        return "Car "  + super.toString()+
-                " {eatingCapacity=" + seatingCapacity +
-                "} ";
+        return "Car " + super.toString()+
+                ", eatingCapacity=" + seatingCapacity ;
     }
 
     public Car(String name, int speed, int value, double fuel,int seatingCapacity) {

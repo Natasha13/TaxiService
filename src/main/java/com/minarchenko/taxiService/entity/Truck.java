@@ -1,4 +1,4 @@
-package com.minarchenko.taxiService.taxi.entity;
+package com.minarchenko.taxiService.entity;
 
 /**
  * Created by Nataliia on 24.10.2018.
@@ -17,7 +17,6 @@ private int payloadCapacity;
 
     @Override
     public String toString() {
-        return "Truck " + super.toString()+" {payloadCapacity=" + payloadCapacity +
-                "} " ;
+        return "Truck " + super.toString()+", payloadCapacity=" + payloadCapacity ;
     }
 }

@@ -1,7 +1,7 @@
-package com.minarchenko.taxiService;
+package com.minarchenko.taxiService.dataSource;
 
-import com.minarchenko.taxiService.taxi.entity.Car;
-import com.minarchenko.taxiService.taxi.entity.Truck;
+import com.minarchenko.taxiService.entity.Car;
+import com.minarchenko.taxiService.entity.Truck;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -33,9 +33,6 @@ public class DataSource {
         } catch (IOException e) {
             e.printStackTrace();
         }
-//        for (Car car : cars) {
-//            System.out.println(car);
-//        }
         return cars;
     }
 
@@ -60,9 +57,6 @@ public class DataSource {
         } catch (IOException e) {
             e.printStackTrace();
         }
-//        for (Truck truck : trucks) {
-//            System.out.println(truck);
-//        }
         return trucks;
     }
 

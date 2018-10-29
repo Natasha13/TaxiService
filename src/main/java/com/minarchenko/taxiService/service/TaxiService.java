@@ -1,4 +1,6 @@
-package com.minarchenko.taxiService.taxi.entity;
+package com.minarchenko.taxiService.service;
+
+import com.minarchenko.taxiService.entity.TaxiEntity;
 
 import java.util.ArrayList;
 import java.util.Comparator;

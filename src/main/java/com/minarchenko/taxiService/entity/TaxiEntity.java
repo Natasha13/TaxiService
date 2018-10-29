@@ -1,4 +1,4 @@
-package com.minarchenko.taxiService.taxi.entity;
+package com.minarchenko.taxiService.entity;
 
 public class TaxiEntity {
     private String name;
@@ -47,12 +47,10 @@ public class TaxiEntity {
 
     @Override
     public String toString() {
-        return "TaxiEntity{" +
-                "name='" + name + '\'' +
+        return "name='" + name +
                 ", speed=" + speed +
                 ", value=" + value +
-                ", fuel=" + fuel +
-                '}';
+                ", fuel=" + fuel;
     }
 
     @Override
